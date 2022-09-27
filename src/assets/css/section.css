@@ -5,10 +5,10 @@
     text-align: center;
 }
 
-.section textarea{
+.textarea{
     margin-top: 60px;
     width: 60rem;
-    height: 3.5rem;
+    height: 3.3rem;
     font-size: 35px;
     border: none;
 }
@@ -22,5 +22,13 @@
     margin: 25px 25px;
     background-color: rgba(70, 20, 170, .25);
     
+}
+
+.selectTextarea {
+    margin-top: 60px;
+    width: 60rem;
+    height: 10.5rem;
+    font-size: 35px;
+    border: none;
 }
 
