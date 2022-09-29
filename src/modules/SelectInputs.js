@@ -11,7 +11,6 @@ export default class SelectInputs{
     clickTextarea(){
         this.textarea.addEventListener('click', (e)=>{
             this.textarea.classList.add('selectTextarea')
-
         })
     }
     

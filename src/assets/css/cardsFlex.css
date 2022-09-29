@@ -1,0 +1,29 @@
+.cardsFlex{
+    width: 50rem;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.card{
+    display: inline-block;
+    width: 600rem;
+   
+   
+}
+
+.opCartao{
+    width: 100%;
+    margin: 32px 16px;
+	padding: 16px;
+	line-height: 1.5;
+	overflow: visible;
+	position: relative;
+	font-family: "Lucida Grande", "Helvetica", "Arial", sans-serif;
+	background: #EBEF40;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.1);
+	transition: transform .2s ease-in;
+}
