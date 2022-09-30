@@ -9,9 +9,13 @@ export default class CreantCard{
         for( let i = 0; i < card.length; i++ ){    
 
             card[i].addEventListener('mouseenter', (e)=>{
-
-               card[i].innerHTML
-            },);
+                let btns = document.querySelectorAll('.btnsRemove') 
+                btns.forEach((val, i)=>{
+                    val[0].classList.add("btns")
+                    val[0].classList.remove("btnsRemove")
+                })
+                
+            }, card[i]);
 
 
             card[0].addEventListener('mouseleave', (e)=>{
