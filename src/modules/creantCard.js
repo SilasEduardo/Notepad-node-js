@@ -21,8 +21,8 @@ export default class CreantCard{
             card[i].addEventListener('mouseleave', (e)=>{
                 let btns = document.querySelectorAll('.btns') 
                 btns.forEach((val)=>{
-                    val.classList.remove("btns")
-                     val.classList.add("btnsRemove")
+                    i.classList.remove("btns")
+                     i.classList.add("btnsRemove")
                 })
             })
           }
