@@ -10,16 +10,20 @@ export default class CreantCard{
 
             card[i].addEventListener('mouseenter', (e)=>{
                 let btns = document.querySelectorAll('.btnsRemove') 
-                btns.forEach((val, i)=>{
-                    val[0].classList.add("btns")
-                    val[0].classList.remove("btnsRemove")
+                btns.forEach((val)=>{
+                    val.classList.add("btns")
+                     val.classList.remove("btnsRemove")
                 })
                 
-            }, card[i]);
+            });
 
 
-            card[0].addEventListener('mouseleave', (e)=>{
-                this.houverRemove()
+            card[i].addEventListener('mouseleave', (e)=>{
+                let btns = document.querySelectorAll('.btns') 
+                btns.forEach((val)=>{
+                    val.classList.remove("btns")
+                     val.classList.add("btnsRemove")
+                })
             })
           }
 
