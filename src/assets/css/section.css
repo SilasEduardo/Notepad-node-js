@@ -11,6 +11,7 @@
     height: 3.3rem;
     font-size: 35px;
     border: none;
+    border-radius: 5px;
 }
 
 .section button{
@@ -19,6 +20,7 @@
     font-size: 25px;
     font-weight: 600;
     border: none;
+    border-radius: 10px;
     margin: 25px 25px;
     background-color: rgba(70, 20, 170, .25);
     

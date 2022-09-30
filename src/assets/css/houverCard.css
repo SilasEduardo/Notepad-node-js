@@ -1,0 +1,14 @@
+.btns{
+ width: 55px;
+ height: 55px;
+ border-radius: 50%;
+ position: relative; top: -40px;
+}
+
+
+.btnsRemove {
+    display: none;
+}
+   
+   
+   
