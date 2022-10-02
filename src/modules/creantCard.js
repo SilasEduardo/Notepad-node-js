@@ -6,17 +6,17 @@ export default class CreantCard{
 
 
 
-        for( let i = 0; i < card.length; i++ ){    
+        // for( let i = 0; i < card.length; i++ ){    
 
-            card[i].addEventListener('mouseenter', (e)=>{
-                this.houverAdd()
-            });
+        //     card[i].addEventListener('mouseenter', (e)=>{
+        //         this.houverAdd()
+        //     });
 
 
-            card[i].addEventListener('mouseleave', (e)=>{
-               this.houverRemove()
-            })
-          }
+        //     card[i].addEventListener('mouseleave', (e)=>{
+        //        this.houverRemove()
+        //     })
+        //   }
 
         
     }
@@ -28,7 +28,7 @@ export default class CreantCard{
             btns.classList.remove("btnsRemove")
         }     
     }
-
+ 
     houverRemove(){
         for(let i = 0; i <= 4; i++){
             let btns = document.querySelector('.btns')    
